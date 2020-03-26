@@ -7,9 +7,10 @@
   padding: 0px 20px;
 }
 
-.chat {
+.chat-screen {
   background-image: url("../images/chatBg.png");
-  min-height: 100vh;
+  min-height: 120vh;
+  padding-top: 90px;
 }
 
 .chat__write {
@@ -47,4 +48,20 @@
 
 .chat__write-column input:focus {
   outline: none;
+}
+
+.status-bar {
+  position: fixed;
+  width: 96%;
+  height: 1000px;
+}
+
+.header {
+  position: fixed;
+  width: 96%;
+  height: 100px;
+}
+
+.chats {
+  padding-top: 100px;
 }
