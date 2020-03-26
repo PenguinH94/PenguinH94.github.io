@@ -105,10 +105,11 @@
   color: white;
   font-weight: 600;
   background-color: white;
+  display: block;
 }
 
 .incoming-message .message__author {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   display: block;
   font-weight: 600;
   font-size: 12px;
