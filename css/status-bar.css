@@ -12,9 +12,3 @@
 .status-bar .status-bar__battery-level {
   margin-left: 8px;
 }
-
-.status-bar {
-  position: fixed;
-  width: 96%;
-  height: 1000px;
-}

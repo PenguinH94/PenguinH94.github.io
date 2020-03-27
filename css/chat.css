@@ -1,6 +1,7 @@
 .header-wrapper {
   position: fixed;
   top: 0px;
+  z-index: 2;
   width: 100%;
   padding: 10px 0px;
   background-color: white;
@@ -20,7 +21,7 @@
 
 .chat__body {
   background-image: url("../images/chatBg.png");
-  min-height: 120vh;
+  min-height: 1000vh;
 }
 
 .chat__write-container {
@@ -105,13 +106,6 @@
   width: 80%;
 }
 
-.chat__write-column input {
-}
-
-.chats {
-  padding-top: 100px;
-}
-
 .chat-screen .chat__messages {
   border-top: 1px solid #f7f7f7;
   display: flex;
@@ -149,10 +143,20 @@
   align-self: flex-end;
 }
 
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
+
 .incoming-message img {
   width: 60px;
   border-radius: 15px;
   margin-right: 15px;
+  animation: spin 3s linear infinite;
 }
 
 .message .message__bubble {
